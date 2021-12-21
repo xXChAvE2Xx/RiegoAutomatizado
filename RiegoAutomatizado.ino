@@ -58,7 +58,7 @@ void loop() {
 //**************************************************************
 
 
- if( HumedadSuelo >= 60) {
+ if( HumedadSuelo <= 60) {
    digitalWrite(motorRiego_pin, HIGH);
    Serial.println("Riego activado");
    analogWrite(motorRiego_pin, motorRiego_velocidad);
