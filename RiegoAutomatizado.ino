@@ -58,14 +58,14 @@ void loop() {
 //**************************************************************
 
 
- /*if( HumedadSuelo >= 60) {
+ if( HumedadSuelo >= 60) {
    digitalWrite(motorRiego_pin, HIGH);
    Serial.println("Riego activado");
    analogWrite(motorRiego_pin, motorRiego_velocidad);
  }else{
    digitalWrite(motorRiego_pin, LOW);
    Serial.println("Riego detenido");
- }*/
+ }
  
  delay (6000);//Tiempo de espera 6s para la siguiente muestra
 }
